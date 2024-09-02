@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    /* overflow-x: hidden; */
+  }
+  
+  .menuOp {
+    height: 20px;
+    margin: 5px;
+  }
+  
+  .contenedor2 {
+    display: flex;
+    gap: 20px;
+    height: 30px;
+    /* border: 1px solid pink; */
+    margin-left: 50px;
+  
+    align-items: center;
+  }
+  
+  .search-bar {
+    margin-left: 50px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: black;
+    width: 250px;
+    height: 30px;
+  }
+  
+  .contenedor1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    /* border: 1px solid purple; */
+    align-items: center;
+    max-width: 90%;
+    overflow: hidden;
+  }
+  
+  .userFoto {
+    height: 40px;
+    margin-right: 10px;
+    
+  }
+  
+  .fotoListen {
+    margin-left: 100px;
+    margin-top: 100px;
+    /* border: 1px solid blue; */
+  }
+  
+  /* esilos para componente listen again */
+  .listenConteiner {
+    display: flex;
+    gap: 50px;
+    margin: 100px;
+    /* border: 1px solid red; */
+    overflow-x: auto;
+    white-space: nowrap;
+    /* max-width: 90%; */
+  }
+  
+  .album-container {
+    /* border: 1px solid blue; */
+    min-width: 200px;
+    margin-right: 10px;
+  }
+  
+  .sectionTitle {
+    margin: 100px;
+  }
+  
+  /* estilo para seccion contenedor componente */
+  .profileComp {
+    display: flex;
+    max-width: 100%;
+    /* border: 1px solid pink; */
+  }
+  
+  .profileData {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid rgb(94, 92, 92); */
+  }
+  
+  .userName {
+    margin: 0;
+    padding: 0;
+    margin-top: 100px;
+  }
+  
+  .sectionTitle {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* @media (max-width: 768px) {
+    .fotoListen,
+    .listenConteiner,
+    .sectionTitle {
+      margin: 0;
+    }
+  } */
+  
